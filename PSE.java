@@ -1,5 +1,6 @@
 package observerPattern;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PSE {
     public static void main(String[] args){
@@ -39,5 +40,6 @@ public class PSE {
         // here is the updates
         System.out.println("Updates recently!");
         System.out.println(stock.notifyClient());
+        System.out.println();
     }
 }
